@@ -3,10 +3,10 @@
 # comes with Ruby!
 
 def reverse_a_string(string)
-  new_string = ""
   len = string.length
+  new_string = ""
 
-  while len >= 0
+  while len > 0
     len = len - 1 # array starts at 0, therefore need to do len - 1 first
     new_string = new_string + string[len]
   end
